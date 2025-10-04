@@ -1,0 +1,9 @@
+update:
+  label: Update
+  permalink: /update
+  description: Updates to Axioris
+
+announcement:
+  label: Announcement
+  permalink: /announcement
+  description: Project announcements and release notes

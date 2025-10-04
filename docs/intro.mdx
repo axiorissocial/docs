@@ -1,0 +1,90 @@
+---
+id: intro
+title: Getting Started
+sidebar_position: 1
+---
+
+# Getting Started
+
+Welcome to **Axioris** - an open-source, lightweight social media platform designed for clarity, performance, and openness.  
+This guide will help you set up the project locally and explore its core features.
+
+## Prerequisites
+
+Before you begin, make sure you have the following installed:
+
+- **Node.js** (v18 or newer)
+- **npm**
+- **Git**
+
+To verify installation:
+
+```bash
+node -v
+npm -v
+git --version
+```
+
+## Quick start
+
+1. Clone the repository:
+
+	```bash
+	git clone https://github.com/axiorissocial/web.git --recurse-submodules
+	cd web
+	```
+
+2. Install dependencies:
+
+	```bash
+	npm ci
+	```
+
+3. Start the development site:
+
+	```bash
+	npm run start
+	```
+
+4. Open the site at http://localhost:5173 (or the port the dev server chooses).
+
+## Project layout
+
+- `primsa` - Database structure
+- `public` - Static files to be served in the `/` directory
+- `server` - The Axioris server/API
+- `shared` - Files to be shared between the frontend and backend
+- `src` - Contains most of the frontend code
+- `translations` - This submodule contains translation strings which are used by the frontend
+- `weblate` - The website's weblate configuration
+
+## Hosted instance & license
+
+The official Axioris site is hosted and maintained by the Axioris team. While the project source is available in this repository, it is intended to be run by the Axioris organisation. Please review the repository `LICENSE` file for details about permitted use and redistribution.
+
+If you have questions about hosting or licensing, open an issue on GitHub and tag it with `licensing`.
+
+## Development commands
+
+- Start dev server: `npm run start`
+
+Use the scripts in `package.json` directly for any extra tasks.
+
+## Contributing
+
+We welcome contributions to the website. To contribute:
+
+1. Fork the repository and create a feature branch.
+2. Update the code as needed.
+3. Run the dev site locally and verify your changes.
+4. Submit a pull request with a clear description and link to the issue (if any).
+
+Small fixes (typos, formatting) are fine to submit directly; for larger changes, open an issue first so we can discuss the approach.
+
+## Next steps
+
+- Read the docs to understand major components and flows.
+- Check the blogs for release notes and announcements.
+- If you'd like design assets or iconography updated for Axioris, file an issue and we can prioritise it.
+
+Thank you for helping make Axioris better!
