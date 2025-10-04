@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Axioris Blog</title>
+        <link>https://docs.axioris.xyz/blog</link>
+        <description>Axioris Blog</description>
+        <lastBuildDate>Sat, 04 Oct 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Welcome to Axioris]]></title>
+            <link>https://docs.axioris.xyz/blog/2025/10/04/welcome-to-axioris</link>
+            <guid>https://docs.axioris.xyz/blog/2025/10/04/welcome-to-axioris</guid>
+            <pubDate>Sat, 04 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[We're excited to announce Axioris - an open-source, lightweight social media web application focused on simplicity and the essentials.]]></description>
+            <content:encoded><![CDATA[<p>We're excited to announce Axioris - an open-source, lightweight social media web application focused on simplicity and the essentials.</p>
+<p>This blog will include updates, release notes, and community highlights as the project grows. Stay tuned!</p>]]></content:encoded>
+            <category>Announcement</category>
+        </item>
+    </channel>
+</rss>

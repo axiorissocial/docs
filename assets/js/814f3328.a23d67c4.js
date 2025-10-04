@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome to Axioris","permalink":"/blog/2025/10/04/welcome-to-axioris","unlisted":false,"date":"2025-10-04T00:00:00.000Z"}]}')}}]);
